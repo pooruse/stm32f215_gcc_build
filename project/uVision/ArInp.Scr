@@ -1,0 +1,10 @@
+--create .\Output\IKV_Crypto.lib
+.\output\ikv_crypto_ecc.o
+.\output\ikv_crypto_ecc_gf2n.o
+.\output\ikv_crypto_ecc_gfp.o
+.\output\ikv_crypto_ecc_math131.o
+.\output\ikv_crypto_ecc_math163.o
+.\output\ikv_crypto_ecc_math193.o
+.\output\ikv_crypto_ecdsa.o
+.\output\ikv_crypto_mac.o
+.\output\ikv_crypto_sha256.o

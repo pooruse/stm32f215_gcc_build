@@ -1,0 +1,8 @@
+*.o
+doc
+ikv.bin
+ikv.elf
+ikv.hex
+ikv.map
+Jlink_device_list
+Timing

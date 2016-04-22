@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>153213615</fileChecksum>
+  <configuration>
+    <name>STM322xG_EVAL</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\src\CMSIS\IAR\system_stm32f2xx.c</file>
+      <file>$PROJ_DIR$\..\..\src\driver_bifgpio.c</file>
+      <file>$PROJ_DIR$\..\..\src\CMSIS\IAR\startup_stm32f2xx.s</file>
+      <file>$PROJ_DIR$\..\..\lib\IKV_Crypto.a</file>
+      <file>$PROJ_DIR$\..\..\src\driver_led.c</file>
+      <file>$PROJ_DIR$\..\..\src\driver_timer.c</file>
+      <file>$PROJ_DIR$\..\..\src\driver_usart.c</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\src\bif_addr_io.c</file>
+      <file>$PROJ_DIR$\..\..\src\bif_driver.c</file>
+      <file>$PROJ_DIR$\..\..\src\bif_protocol.c</file>
+      <file>$PROJ_DIR$\..\..\src\bif_search.c</file>
+      <file>$PROJ_DIR$\..\..\src\display_utils.c</file>
+      <file>$PROJ_DIR$\..\..\src\main.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_async.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_auth.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_crypto.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_curve.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_host.c</file>
+      <file>$PROJ_DIR$\..\..\src\optiga_nvm.c</file>
+      <file>$PROJ_DIR$\stm32f2xx_flash.icf</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_host.i</file>
+      <file>$PROJ_DIR$\Debug\List\system_stm32f2xx.i</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_curve.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_nvm.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_tim.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_usart.i</file>
+      <file>$PROJ_DIR$\..\..\inc\system_stm32f2xx.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Debug\List\bif_addr_io.lst</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\inc\ikv_types.h</file>
+      <file>$PROJ_DIR$\..\..\inc\driver_usart.h</file>
+      <file>$PROJ_DIR$\Debug\List\bif_addr_io.i</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_crypto.i</file>
+      <file>$PROJ_DIR$\Debug\List\bif_search.i</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_gpio.i</file>
+      <file>$PROJ_DIR$\Debug\List\driver_usart.i</file>
+      <file>$PROJ_DIR$\Debug\List\driver_timer.i</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_auth.i</file>
+      <file>$PROJ_DIR$\Debug\List\main.i</file>
+      <file>$PROJ_DIR$\Debug\List\bif_protocol.lst</file>
+      <file>$PROJ_DIR$\Debug\List\misc.i</file>
+      <file>$PROJ_DIR$\Debug\List\optiga.i</file>
+      <file>$PROJ_DIR$\Debug\List\bif_search.lst</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_crypto.lst</file>
+      <file>$PROJ_DIR$\Debug\List\Project.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_curve.lst</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_rcc.lst</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_crypto.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_bifgpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_gpio.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_host.lst</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_tim.lst</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\List\system_stm32f2xx.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_addr_io.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_nvm.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_usart.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f2xx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_protocol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_curve.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_search.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_auth.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_tim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_host.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_nvm.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\system_stm32f2xx.c</file>
+      <file>$PROJ_DIR$\..\..\src\startup_stm32f2xx.s</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_async.lst</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_async.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_async.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_async.o</file>
+      <file>$PROJ_DIR$\..\..\inc\display_utils.h</file>
+      <file>$PROJ_DIR$\Debug\List\display_utils.i</file>
+      <file>$PROJ_DIR$\Debug\List\display_utils.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\display_utils.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\display_utils.pbi</file>
+      <file>$PROJ_DIR$\src\bif_driver.c</file>
+      <file>$PROJ_DIR$\src\system_stm32f2xx.c</file>
+      <file>$PROJ_DIR$\src\driver_bifgpio.c</file>
+      <file>$PROJ_DIR$\src\driver_led.c</file>
+      <file>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\src\bif_search.c</file>
+      <file>$PROJ_DIR$\src\driver_usart.c</file>
+      <file>$PROJ_DIR$\src\driver_timer.c</file>
+      <file>$PROJ_DIR$\src\bif_protocol.c</file>
+      <file>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c</file>
+      <file>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</file>
+      <file>$PROJ_DIR$\src\optiga.c</file>
+      <file>$PROJ_DIR$\src\optiga_auth.c</file>
+      <file>$PROJ_DIR$\src\bif_addr_io.c</file>
+      <file>$PROJ_DIR$\src\optiga_curve.c</file>
+      <file>$PROJ_DIR$\src\optiga_host.c</file>
+      <file>$PROJ_DIR$\src\optiga_nvm.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_rcc.o</file>
+      <file>$PROJ_DIR$\src\optiga_crypto.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_gpio.o</file>
+      <file>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_bifgpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_nvm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_host.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_curve.o</file>
+      <file>$PROJ_DIR$\..\..\inc\ikv_crypto.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f2xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f2xx.o</file>
+      <file>$PROJ_DIR$\Debug\List\driver_bifgpio.lst</file>
+      <file>$PROJ_DIR$\bin\Project.out</file>
+      <file>$PROJ_DIR$\..\..\inc\optiga_host.h</file>
+      <file>$PROJ_DIR$\Debug\List\bif_driver.lst</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\..\..\inc\optiga_curve.h</file>
+      <file>$PROJ_DIR$\Debug\List\driver_timer.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_crypto.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga_auth.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\optiga.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_search.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_protocol.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_addr_io.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bif_driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f2xx_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver_led.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$PROJ_DIR$\..\..\inc\driver_bifgpio.h</file>
+      <file>$PROJ_DIR$\..\..\inc\bif_driver.h</file>
+      <file>$PROJ_DIR$\Debug\List\driver_led.lst</file>
+      <file>$PROJ_DIR$\src\startup_stm32f2xx.s</file>
+      <file>$PROJ_DIR$\Debug\List\optiga.lst</file>
+      <file>$PROJ_DIR$\..\..\inc\driver_led.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\..\..\inc\bif_protocol.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\inc\stm32f2xx_conf.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\List\misc.lst</file>
+      <file>$PROJ_DIR$\Debug\List\driver_led.i</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h</file>
+      <file>$PROJ_DIR$\Debug\List\bif_protocol.i</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h</file>
+      <file>$PROJ_DIR$\Debug\List\driver_bifgpio.i</file>
+      <file>$PROJ_DIR$\Debug\List\driver_usart.lst</file>
+      <file>$PROJ_DIR$\..\..\inc\optiga.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h</file>
+      <file>$PROJ_DIR$\Debug\List\bif_driver.i</file>
+      <file>$PROJ_DIR$\Debug\List\optiga_auth.lst</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f2xx_rcc.i</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx.h</file>
+      <file>$PROJ_DIR$\..\..\inc\driver_timer.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CMSIS\IAR\system_stm32f2xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 85 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\driver_bifgpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194 149 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\CMSIS\IAR\startup_stm32f2xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\driver_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188 171 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 174 179 176 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 174 179 176 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\driver_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 155 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 208</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\driver_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 195 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 207 49 38 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 207 49 38 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 187 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 80 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 76 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 83 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 185 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 185 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47 89 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\bif_addr_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 52 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 55 38 44 36 175 177 46 42 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 55 38 44 36 175 177 46 42 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\bif_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199 152 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 170 178 55 169 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 170 178 55 169 208</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\bif_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191 67 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 38 44 36 175 177 46 42 37 178 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170 38 44 36 175 177 46 42 37 178 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\bif_search.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 70 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 38 44 36 175 177 46 42 37 178 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170 38 44 36 175 177 46 42 37 178 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\display_utils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 115 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 179 176 35 151 55 145 196 170 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 179 176 35 151 55 145 196 170 178</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 153 159</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 207 49 38 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 56 179 35 174 208 169 196 170 178 55 154 145 151 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 207 49 38 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58 56 179 35 174 208 169 196 170 178 55 154 145 151 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 173 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 55 38 44 36 175 177 46 42 37 145 196 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 55 38 44 36 175 177 46 42 37 145 196 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_async.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 109 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 55 38 44 36 175 177 46 42 37 145 196 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 55 38 44 36 175 177 46 42 37 145 196 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_auth.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 200 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 41 186 55 38 178 196 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 41 186 55 38 178 196 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_crypto.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 71 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 55 38 151 145 196 170 178 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 55 38 151 145 196 170 178 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_curve.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 74 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 38 145 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 44 36 175 177 46 42 37 176 35 38 145 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_host.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 82 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 151 55 38 145 196 170 178 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 151 55 38 145 196 170 178 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\optiga_nvm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 87 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 178 55 38 196 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 44 36 175 177 46 42 37 176 186 178 55 38 196 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 150 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system_stm32f2xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 85 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207 49 38 44 36 175 177 46 42 37 51 50 54 53 48 180 202 198 197 205 193 189 190 192 184 182 183 181 204 59 30 29 33 201 32 206 31 28 40 185 39 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\startup_stm32f2xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bif_driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\system_stm32f2xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver_bifgpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver_led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bif_search.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bif_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga_auth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bif_addr_io.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga_curve.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga_host.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga_nvm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\optiga_crypto.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\bin\Project.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 25 162 163 161 160 116 141 167 146 166 3 159 168 158 112 157 156 144 143 142 148 139 137 165 164 147 77 75 84 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\startup_stm32f2xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
