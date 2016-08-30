@@ -33,5 +33,4 @@ src/main.o: src/main.c /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
  lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h \
  lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h \
  lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h \
- lib/STM32F2xx_StdPeriph_Driver/inc/misc.h inc/igs_timer.h inc/igs_task.h \
- inc/igs_init.h boot_driver/inc/IGS_STM32_IAP_APP.h
+ lib/STM32F2xx_StdPeriph_Driver/inc/misc.h

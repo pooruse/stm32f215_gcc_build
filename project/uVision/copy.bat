@@ -1,1 +1,0 @@
-copy .\Output\IKV_Crypto.lib ..\..\lib
